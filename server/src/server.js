@@ -30,6 +30,7 @@ const allowedOrigins = [
   'http://localhost:3000',
   'https://abrroadlines.com',
   'https://www.abrroadlines.com',
+  'https://abrroadlines.vercel.app',
   process.env.CLIENT_URL,
 ].filter(Boolean);
 
@@ -77,7 +78,7 @@ app.use(errorHandler);
 
 // Start Server
 let server = null;
-if (process.env.NODE_ENV !== 'test') {
+if (process.env.NODE_ENV !== 'test' && !process.env.VERCEL) {
   server = app.listen(PORT, () => {
     logger.info(`🚛 ABR Roadlines API Server running on port ${PORT} [${process.env.NODE_ENV || 'development'}]`);
   });

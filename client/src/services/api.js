@@ -1,4 +1,12 @@
-const API_BASE = import.meta.env.VITE_API_URL || '/api';
+// Normalize API base URL (handles trailing slashes and ensures /api path)
+const getApiBase = () => {
+  const envUrl = (import.meta.env.VITE_API_URL || '').trim();
+  if (!envUrl) return '/api';
+  const cleanUrl = envUrl.replace(/\/+$/, '');
+  return cleanUrl.endsWith('/api') ? cleanUrl : `${cleanUrl}/api`;
+};
+
+const API_BASE = getApiBase();
 
 export async function fetchApi(endpoint, options = {}) {
   const token = localStorage.getItem('abr_auth_token');
