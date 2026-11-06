@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 70" fill="none">
+  <!-- Brand Icon -->
+  <g transform="translate(4, 5)">
+    <!-- Base Hexagonal / Shield Container -->
+    <rect x="0" y="0" width="60" height="60" rx="14" fill="#0B192C"/>
+    <!-- Dynamic Highway / Speed Arrows -->
+    <path d="M12 44 L26 16 L34 16 L20 44 Z" fill="#FF6500"/>
+    <path d="M26 44 L40 16 L48 16 L34 44 Z" fill="#FFFFFF"/>
+    <!-- Orange Accent Dot / Connectivity Hub -->
+    <circle cx="44" cy="40" r="5" fill="#FF6500"/>
+    <path d="M18 32 L44 32" stroke="#FF6500" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Text Brandmark -->
+  <text x="76" y="38" font-family="'Poppins', 'Inter', sans-serif" font-size="28" font-weight="800" letter-spacing="1.5" fill="#0B192C">ABR <tspan fill="#FF6500">ROADLINES</tspan></text>
+  <text x="78" y="55" font-family="'Inter', sans-serif" font-size="10.5" font-weight="600" letter-spacing="3" fill="#64748B">PVT. LTD. &bull; PAN-INDIA LOGISTICS</text>
+</svg>
+

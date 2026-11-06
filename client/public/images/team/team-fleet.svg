@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B192C"/>
+      <stop offset="100%" stop-color="#1E3E62"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6500"/>
+      <stop offset="100%" stop-color="#FFA040"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="600" fill="url(#bgGrad)"/>
+  <rect width="600" height="600" fill="url(#grid)"/>
+
+  <!-- Geometric Speed lines -->
+  <path d="M 0 450 Q 180 300 600 480" stroke="rgba(255,101,0,0.15)" stroke-width="6" fill="none"/>
+  <path d="M 0 480 Q 240 360 600 510" stroke="rgba(255,255,255,0.08)" stroke-width="3" fill="none"/>
+
+  <!-- Center Visual Motif -->
+  <g transform="translate(240, 220)">
+    <rect x="0" y="0" width="120" height="120" rx="24" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+    
+      <circle cx="60" cy="48" r="22" fill="#E2E8F0"/>
+      <path d="M28 100 C28 78 42 70 60 70 C78 70 92 78 92 100 Z" fill="#E2E8F0"/>
+    
+  </g>
+
+  <!-- Typography -->
+  <text x="300" y="375" text-anchor="middle" font-family="'Poppins', sans-serif" font-weight="700" font-size="21.000000000000004" fill="#FFFFFF" letter-spacing="0.5">VP Fleet Engineering</text>
+  <text x="300" y="405" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="500" font-size="12" fill="#94A3B8" letter-spacing="1.5">TELEMATICS & VEHICLE SAFETY</text>
+  
+  <!-- Subtle Badge Bottom Right -->
+  <rect x="440" y="560" width="140" height="26" rx="6" fill="rgba(15,23,42,0.6)"/>
+  <text x="510" y="577" text-anchor="middle" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#FF6500">ABR ROADLINES</text>
+</svg>
