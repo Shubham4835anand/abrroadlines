@@ -49,10 +49,10 @@ All images used across the application are optimized for fast loading (Core Web 
 
 | Asset Path | Recommended Format | Dimensions (WxH) | Aspect Ratio | Usage / Location | Executive Role |
 |---|---|---|---|---|---|
-| `/images/team/team-md.svg` | WebP / SVG | 600 x 600 px | 1:1 | About Us Leadership Team | Chairman & Managing Director |
-| `/images/team/team-ops.svg` | WebP / SVG | 600 x 600 px | 1:1 | About Us Leadership Team | Director of Pan-India Operations |
-| `/images/team/team-fleet.svg` | WebP / SVG | 600 x 600 px | 1:1 | About Us Leadership Team | VP - Fleet Engineering & Telematics |
-| `/images/team/team-crm.svg` | WebP / SVG | 600 x 600 px | 1:1 | About Us Leadership Team | Head of Enterprise Client Experience |
+| `/ui-assets/team/baljit-singh.jpg` | JPG / WebP | 1024 x 1024 px | 1:1 | About Us Leadership Team | Chairman & Managing Director (Baljit Singh - AI Portrait) |
+| `/ui-assets/team/rajesh-sharma.jpg` | JPG / WebP | 1024 x 1024 px | 1:1 | About Us Leadership Team | Director of Pan-India Operations (Rajesh Sharma - AI Portrait) |
+| `/ui-assets/team/vikas-aggarwal.jpg` | JPG / WebP | 1024 x 1024 px | 1:1 | About Us Leadership Team | VP - Fleet Engineering & Telematics (Vikas Aggarwal - AI Portrait) |
+| `/ui-assets/team/pooja-rawat.jpg` | JPG / WebP | 1024 x 1024 px | 1:1 | About Us Leadership Team | Head of Enterprise Client Success (Pooja Rawat - AI Portrait) |
 
 ---
 

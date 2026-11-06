@@ -68,28 +68,28 @@ export const LEADERSHIP = [
     role: 'Managing Director & Founder',
     experience: '25+ Years in Commercial Freight',
     bio: 'A visionary highway transport pioneer with deep domain expertise in Indian freight corridors, fleet economics, and strategic expansion.',
-    image: '/ui-assets/team/tm1.jpg'
+    image: '/ui-assets/team/baljit-singh.jpg'
   },
   {
     name: 'Rajesh Sharma',
     role: 'Director of Pan-India Operations',
     experience: '18+ Years in Highway Linehaul',
     bio: 'Directs the 24/7 operations room, multi-hub scheduling, driver relay logistics, and green-corridor highway coordination.',
-    image: '/ui-assets/team/tm2.jpg'
+    image: '/ui-assets/team/rajesh-sharma.jpg'
   },
   {
     name: 'Vikas Aggarwal',
     role: 'VP - Fleet Engineering & Telematics',
     experience: '15+ Years in Vehicle Tech & IoT',
     bio: 'Oversees fleet predictive maintenance, sensor integrations, highway roadside response teams, and asset longevity.',
-    image: '/ui-assets/team/tm3.jpg'
+    image: '/ui-assets/team/vikas-aggarwal.jpg'
   },
   {
     name: 'Pooja Rawat',
     role: 'Head of Enterprise Client Success',
     experience: '12+ Years in Corporate Logistics Accounts',
     bio: 'Drives custom SLA management, ERP API onboarding, and enterprise partnership renewals for Fortune 500 manufacturing clients.',
-    image: '/ui-assets/team/tm4.jpg'
+    image: '/ui-assets/team/pooja-rawat.jpg'
   }
 ];
 

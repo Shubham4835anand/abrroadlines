@@ -76,9 +76,12 @@ app.get('/', (req, res) => {
 app.use(errorHandler);
 
 // Start Server
-const server = app.listen(PORT, () => {
-  logger.info(`🚛 ABR Roadlines API Server running on port ${PORT} [${process.env.NODE_ENV || 'development'}]`);
-});
+let server = null;
+if (process.env.NODE_ENV !== 'test') {
+  server = app.listen(PORT, () => {
+    logger.info(`🚛 ABR Roadlines API Server running on port ${PORT} [${process.env.NODE_ENV || 'development'}]`);
+  });
+}
 
 // Graceful Shutdown
 process.on('SIGTERM', () => {
